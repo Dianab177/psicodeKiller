@@ -1,12 +1,12 @@
-:root{
-    --main-branding-1color: #0E0004;
-    --main-branding-2color: #481117;
-    --main-branding-3color: #6B0F1A;
-    --main-branding-4color: #2E282B;
-    --main-font-Title:'Nosifer', cursive;
-    --main-font-subTitle:'Syne Mono', monospace;
-
+:root {
+  --main-branding-1color: #0e0004;
+  --main-branding-2color: #481117;
+  --main-branding-3color: #6b0f1a;
+  --main-branding-4color: #2e282b;
+  --main-font-Title: "Nosifer", cursive;
+  --main-font-subTitle: "Syne Mono", monospace;
 }
+/*
 h1{
     font-family: var(--main-font-Title);
     color: var(--main-branding-3color);
@@ -15,3 +15,4 @@ h2{
     font-family: var(--main-font-subTitle);
     color: var(--main-branding-4color);
 }
+*/
