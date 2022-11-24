@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+/*body{
+  background-image: url(./img/fondocodigo.png);
+  font-family: 'zilla Slab Highlight', sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+}*/
+.container{
+  width: 100vw;
+  height:100vh;
+}
+.popUp{
+  display: flex;
+  padding:30px;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+
+button {
+  background-color:#6B0F1A;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 14px;
+  width: 120px;
+  height:46px;
+  padding: 10px 40px;
+  margin:0;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(245, 242, 242, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: black;
+  width: 250px;
+  height: 350px;
+  max-width: 100%;
+  padding: 70px 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+}
+
+.modal h3 {
+  margin: 30px;
+  color:#fff;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+  padding:20px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+
+/*---------Pie de pagina*/
+
+.pie-pagina{
+   
+  clear:both;
+  box-sizing: border-box;
+  width:100%;
+  background-color:rgb(66, 63, 63);
+  min-height:80px;
+  text-align: center;
+  padding:30px;
+  margin-top:0;
+  color:#fff;    
+}
+.autor{
+  margin-top:10px;
+  font-size: 20px;
+  margin-left:30px;
+}
+.terms{
+  display:flex;
+  justify-content: center;
+  list-style: none;
+ 
+}
