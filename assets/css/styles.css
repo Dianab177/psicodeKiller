@@ -7,8 +7,18 @@
     --main-font-subTitle:'Syne Mono', monospace;
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 390px) {
     /* aqui medidas para iPhone 14 (móvil)*/
+    /* .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+    } */
 }
 
 @media screen and (min-width: 744px) {
@@ -35,6 +45,7 @@ body {
     justify-content: center;
     align-content: center;
     width: 100vw;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
@@ -42,18 +53,31 @@ body {
 .container-pc-monitor {
     display: flex;
     width: 600px;
-    height: 100vh;
+    height: 400px;
     justify-content: center;
+    justify-items: center;
     align-items: center;
+    margin-top: 20vh;
 }
 
 .img-container-pc-monitor {
+    position: absolute;
     width: 500px;
     height: 400px;
+    margin-top: 50px;
+}
+
+.video-container-pc-monitor {
+    position: absolute;
+    width: 500px;
+    height: 400px; 
+    overflow: hidden;
+    margin-bottom: 200px;
 }
 
 .container-title-and-play-button {
     display: flex;
+    flex-direction: column;
     width: 600px;
     height: 100vh;
     justify-content: center;
@@ -67,4 +91,20 @@ body {
     font-weight: bold;
     color: red;
     text-align: center;
+}
+
+.container-play-button {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.container-play-button:hover {
+    color:red;
 }
