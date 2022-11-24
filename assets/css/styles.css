@@ -22,3 +22,49 @@
 @media screen and (min-width: 1440px) {
     /* aqui medidas para pantalla desktop */
 }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image:url(/assets/img/background.jpg);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-pc-monitor {
+    display: flex;
+    width: 600px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container-pc-monitor {
+    width: 500px;
+    height: 400px;
+}
+
+.container-title-and-play-button {
+    display: flex;
+    width: 600px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title-landing {
+    display: flex;
+    font-family: Nosifer;
+    font-size: 50pt;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
