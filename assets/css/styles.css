@@ -5,13 +5,20 @@
     --main-branding-4color: #2E282B;
     --main-font-Title:'Nosifer', cursive;
     --main-font-subTitle:'Syne Mono', monospace;
+}
 
+@media screen and (min-width: 390px) {
+    /* aqui medidas para iPhone 14 (móvil)*/
 }
-h1{
-    font-family: var(--main-font-Title);
-    color: var(--main-branding-3color);
+
+@media screen and (min-width: 744px) {
+    /* aqui medidas para iPad Mini (tablet pequeña) */
 }
-h2{
-    font-family: var(--main-font-subTitle);
-    color: var(--main-branding-4color);
+
+@media screen and (min-width: 1024px) {
+    /* aqui medidas para iPad Pro (tablet grande) */
+}
+
+@media screen and (min-width: 1440px) {
+    /* aqui medidas para pantalla desktop */
 }
