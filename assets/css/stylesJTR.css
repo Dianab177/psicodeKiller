@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,6 +40,11 @@ h2 {
   perspective: 800px;
   position: relative;
   margin-top: 50px;
+}
+.container-block {
+  position: relative;
+  width: 80vw;
+  align-self: center;
 }
 .container-carrusel {
   width: 80%;
@@ -141,7 +146,7 @@ h2 {
   transform: rotateY(360deg) translateZ(300px);
 }
 
-@keyframes rotar {
+ @keyframes rotar {
   from {
     transform: rotateY(0deg);
   }
@@ -149,6 +154,7 @@ h2 {
     transform: rotateY(360deg);
   }
 }
+
 #spin {
   height: 60px;
   width: 200px;
@@ -168,6 +174,7 @@ h2 {
 #spin:hover {
   box-shadow: none;
 }
+
 .stoper {
   height: 50px;
   width: 40px;
@@ -175,4 +182,4 @@ h2 {
   position: absolute;
   clip-path: polygon(100% 0, 50% 100%, 0 0);
   margin-top: -60px;
-}
+} */
