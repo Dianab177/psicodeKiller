@@ -79,16 +79,15 @@ video {
     color: red;
 }
 
-/* Iphone 12 Pro - vertical */
+/* Ipad mini - vertical */
 @media (min-width: 768px) {
     .container-pc {
-        height: 400px;
-        margin-top: 90px;
+        height: 350px;
+        margin-top: 110px;
     }
 
     .container-text-button {
-        height: 400px;
-        margin-bottom: 20px;
+        height: 350px;
     }
 
     .img-container-pc {
@@ -96,6 +95,73 @@ video {
     }
 
     .title-container-text-button {
-        font-size: 40pt;
+        font-size: 45pt;
+        margin-top: 70px;
+    }
+
+    .button-container-text-button {
+        padding: 15px 35px;
+        font-size: 22px;
+        margin-top: 25px;
+    }
+}
+
+/* Ipad Air - vertical */
+@media (min-width: 820px) {
+    .container-pc {
+        height: 400px;
+        margin-top: 140px;
+    }
+
+    .container-text-button {
+        height: 400px;
+    }
+
+    .img-container-pc {
+        width: 500px;
+    }
+
+    .title-container-text-button {
+        font-size: 50pt;
+        margin-top: 100px;
+    }
+
+    .button-container-text-button {
+        padding: 20px 40px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+}
+
+/* Desktop  */
+@media (min-width: 1200px) {
+    .container {
+        flex-direction: row;
+    }
+    .container-pc {
+        height: 400px;
+        margin-top: 180px;
+        margin-right: 70px;
+    }
+
+    .container-text-button {
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+    .img-container-pc {
+        width: 500px;
+    }
+
+    .title-container-text-button {
+        font-size: 50pt;
+        margin-top: 100px;
+    }
+
+    .button-container-text-button {
+        padding: 15px 30px;
+        font-size: 20px;
+        margin-top: 30px;
     }
 }
