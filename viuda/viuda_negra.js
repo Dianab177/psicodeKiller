@@ -25,3 +25,10 @@ function agregarUsuario() {
         alert("Lo siento.el usuario ya existe");
     }
 }
+
+const btnAbrirModal=document.querySelector("#btnAbrirModal");
+const btnCerrarModal=document.querySelector("#btnCerrarMod");
+const modal=document.querySelector("#modal");
+btnAbrirModal.addEventListener("click",()=>{
+    modal.showModal();
+})
