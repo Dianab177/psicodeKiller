@@ -10,18 +10,18 @@ function mostrarOcultarTablas(id){
 
 function agregarUsuario() {
     let existe = false;
-    for (i=0; i<pacientes.length; i++) {
-        if (mascotaHTML.value == pacientes[i].mascota)
+    for (i=0; i<coder.length; i++) {
+        if (coderHTML.value == coder[i].coder)
             existe = true;
     }
     if (existe == false) {
-        var primerContacto = new claseVeterinaria( mascotaHTML.value, duenoHTML.value);
-        pacientes.push(primerContacto);
-        mascotaHTML.value = "";
-        duenoHTML.value = "";
+        let nuevocoder = new coderes( coderHTML.value);
+        coder.push(nuevocoder);
+        coderHTML.value = "";
+       
         
     }
     else{
-        alert("Lo siento.La mascota ya existe");
+        alert("Lo siento.el usuario ya existe");
     }
 }
