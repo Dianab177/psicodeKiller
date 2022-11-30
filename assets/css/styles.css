@@ -7,104 +7,95 @@
     --main-font-subTitle:'Syne Mono', monospace;
 }
 
-@media screen and (max-width: 390px) {
-    /* aqui medidas para iPhone 14 (móvil)*/
-    /* .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        width: 100vw;
-        height: 100vh;
-        margin: 0px;
-        padding: 0px;
-    } */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media screen and (min-width: 744px) {
-    /* aqui medidas para iPad Mini (tablet pequeña) */
-}
-
-@media screen and (min-width: 1024px) {
-    /* aqui medidas para iPad Pro (tablet grande) */
-}
-
-@media screen and (min-width: 1440px) {
-    /* aqui medidas para pantalla desktop */
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    background-image:url(/assets/img/background.jpg);
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
 }
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
-}
-
-.container-pc-monitor {
-    display: flex;
-    width: 600px;
-    height: 400px;
-    justify-content: center;
-    justify-items: center;
     align-items: center;
-    margin-top: 20vh;
 }
 
-.img-container-pc-monitor {
-    position: absolute;
-    width: 500px;
-    height: 400px;
-    margin-top: 50px;
-}
-
-.video-container-pc-monitor {
-    position: absolute;
-    width: 500px;
-    height: 400px; 
-    overflow: hidden;
-    margin-bottom: 200px;
-}
-
-.container-title-and-play-button {
+.container-pc {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 100vh;
+    margin-top: 22px;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 190px;
+}
+
+.img-container-pc {
+    display: flex;
+    width: 250px;
+}
+
+.container-text-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    justify-content: center;
+    align-content: center;
     align-items: center;
 }
 
-.container-title-landing {
+.title-container-text-button {
     display: flex;
-    font-family: Nosifer;
-    font-size: 50pt;
-    font-weight: bold;
-    color: red;
     text-align: center;
+    color: #A01212;
+    font-size: 30pt;
+    font-family: 'Nosifer';
 }
 
-.container-play-button {
+.button-container-text-button {
     background-color: black;
     border: none;
     border-radius: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 25px;
 }
 
-.container-play-button:hover {
-    color:red;
+.button-container-text-button:hover {
+    color: red;
+}
+
+/* Iphone 12 Pro - vertical */
+@media (min-width: 768px) {
+    .container-pc {
+        height: 400px;
+        margin-top: 90px;
+    }
+
+    .container-text-button {
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .img-container-pc {
+        width: 400px;
+    }
+
+    .title-container-text-button {
+        font-size: 40pt;
+    }
 }
