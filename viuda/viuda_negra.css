@@ -45,6 +45,8 @@ padding-top:80px;
 z-index:2
 }
 
+/* botones*/
+
 .btn{
 display: flex;
 flex-direction: row;
@@ -100,7 +102,7 @@ text-transform: uppercase;
 
 
 
-/* botones*/
+
 
 
 
@@ -166,12 +168,35 @@ text-transform: uppercase;
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-@media screen and (max-width:800px){
+
+
+
+@media screen and (max-width:780px) and (min-width:1024px){
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .down{
+        padding:0;
+        flex-direction: column;
+       
+       
+    }
+}
+
+@media screen and (max-width:564px){
+     .btn, .btn1{
+       
+        padding: 5px 10px;
+        margin:2px;
+       
+       
+
     }
 }
 
