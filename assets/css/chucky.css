@@ -1,0 +1,68 @@
+:root {
+  --main-branding-1color: #0e0004;
+  --main-branding-2color: #481117;
+  --main-branding-3color: #6b0f1a;
+  --main-branding-4color: #2e282b;
+  --main-font-Title: "Nosifer", cursive;
+  --main-font-subTitle: "Syne Mono", monospace;
+}
+
+h1 {
+  font-family: var(--main-font-Title);
+  color: var(--main-branding-3color);
+}
+
+h2 {
+  font-family: var(--main-font-subTitle);
+  color: var(--main-branding-4color);
+}
+
+/* BOTONCITO LIQUID FILL */
+.container-chucky {
+  margin: 0px;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nosifer", cursive;
+}
+
+.box {
+  width: 120px;
+  height: 50px;
+  border: 10px solid #6b0f1a;
+  border-radius: 40px;
+  line-height: 200px;
+  text-align: center;
+  color:white;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #b00505;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 40%;
+  animation: fill 7s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes fill {
+  from {
+    top: 250px;
+    transform: translateX(-50%) rotate(0deg);
+  }
+  to {
+    top: -50px;
+    transform: translateX(-50%) rotate(300deg);
+  }
+}
+/* END OF BOTONCITO LIQUID FILL */
