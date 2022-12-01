@@ -79,46 +79,24 @@ video {
     color: red;
 }
 
-/* Ipad mini - vertical */
-@media (min-width: 768px) {
-    .container-pc {
-        height: 350px;
-        margin-top: 110px;
-    }
-
-    .container-text-button {
-        height: 350px;
-    }
-
-    .img-container-pc {
-        width: 400px;
-    }
-
-    .title-container-text-button {
-        font-size: 45pt;
-        margin-top: 70px;
-    }
-
-    .button-container-text-button {
-        padding: 15px 35px;
-        font-size: 22px;
-        margin-top: 25px;
-    }
-}
+/* Iphone 12 - horizontal  */
 
 /* Ipad mini - horizontal */
 @media (min-width: 1024px) and (orientation: landscape) {
     .container {
         flex-direction: row;
+        margin-top: 50px;
     }
 
     .container-pc {
         height: 350px;
         margin-top: 200px;
+        margin-right: 40px;
     }
 
     .container-text-button {
         height: 350px;
+        margin-left: 40px;
     }
 
     .img-container-pc {
@@ -127,7 +105,7 @@ video {
 
     .title-container-text-button {
         font-size: 45pt;
-        margin-top: 70px;
+        margin-top: 130px;
     }
 
     .button-container-text-button {
@@ -168,10 +146,10 @@ video {
 @media (min-width: 1180px) and (orientation: landscape) {
     .container {
         flex-direction: row;
+        margin-top: 100px;
     }
     .container-pc {
         height: 400px;
-        margin-top: 200px;
         margin-right: 40px;
     }
 
@@ -186,7 +164,6 @@ video {
 
     .title-container-text-button {
         font-size: 50pt;
-        margin-top: 130px;
     }
 
     .button-container-text-button {
@@ -200,16 +177,16 @@ video {
 @media (min-width: 1200px) {
     .container {
         flex-direction: row;
+        margin-top: 50px;
     }
+
     .container-pc {
         height: 400px;
-        margin-top: 180px;
         margin-right: 70px;
     }
 
     .container-text-button {
         height: 400px;
-        margin-top: 50px;
         margin-left: 70px;
     }
 
@@ -219,7 +196,6 @@ video {
 
     .title-container-text-button {
         font-size: 50pt;
-        margin-top: 120px;
     }
 
     .button-container-text-button {
