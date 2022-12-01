@@ -1,0 +1,107 @@
+/*-----------------  GOOGLE FONTS  -----------------*/
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+/*-----------------  VARIABLES  -----------------*/
+:root {
+  /*Fonts*/
+
+  --main-font-Title: "Nosifer", cursive;
+  --main-font-subTitle: "Syne Mono", monospace;
+  /* Colors */
+  --main-branding-1color: #0e0004;
+  --main-branding-2color: #481117;
+  --main-branding-3color: #bd0218;
+  --main-branding-4color: #2e282b;
+  --white_color: rgb(255, 255, 255);
+  --body_background: linear-gradient(to right, #7f8080, #fbe2e2);
+  --spin_background: linear-gradient(to right, #bd4f5c, #110c01);
+}
+/*-----------------  Base  -----------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background: var(--body_background);
+}
+/*-----------------  Styling Start  -----------------*/
+h1 {
+  font-family: var(--main-font-Title);
+  position: absolute;
+  font-size: 2rem;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-branding-3color);
+}
+h3 {
+  font-family: var(--main-font-subTitle);
+  font-size: 1.5rem;
+  color: #bd0218;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-top: 5px;
+}
+img {
+  width: 130px;
+  border-radius: 50%;
+}
+.container {
+  width: 70%;
+  max-width: 34.37rem;
+  margin-top: 20vh;
+  max-height: 70vh;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.wheel_box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#spinWheel {
+  max-height: inherit;
+  width: inherit;
+  transform: rotate(180deg);
+}
+#spin_btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 26%;
+  width: 26%;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  background: var(--spin_background);
+  color: var(--white_color);
+  text-transform: uppercase;
+  font-family: var(--main-font-subTitle);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+.fa-solid {
+  position: absolute;
+  top: 30%;
+  left: 90%;
+  font-size: 4rem;
+  color: var(--main-branding-3color);
+  transform: rotate(-140deg);
+}
+#text {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1.2rem;
+  color: var(--white_color);
+  font-weight: 500;
+}
