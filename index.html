@@ -14,17 +14,16 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Syne+Mono&display=swap"
       rel="stylesheet"
     />
-    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css" />
     <link type="text/css" rel="stylesheet" href="./assets/css/slenderman.css" />
     <link
       type="text/css"
       rel="stylesheet"
       href="./assets/css/viuda_negra.css"
     />
-
-    <title>PsicodeKiller</title>
+    <link rel="stylesheet" href="./assets/css/chucky.css" />
+    <link rel="js" href="./assets/js/app.js" />
+    <title>Psy_code_killers</title>
   </head>
-
   <body>
     <div class="container-1">
       <div class="container-pc">
@@ -34,11 +33,15 @@
         <h1 class="title-container-text-button">WHEEL<br />OF<br />DOOM</h1>
 
         <!---------------------------------POP Up----------------------------------->
-        <button id="open">Jugar</button>
+        <div id="open" class="container-chucky">
+          <!-- BOTONCITO LIQUID FILL -->
+          <div class="box">Play</div>
+          <!-- END OF BOTONCITO LIQUID FILL -->
+        </div>
         <div id="modal_container" class="modal-container">
           <div class="modal">
             <img
-              src="./assets/viuda_negra_img/Logo-negro.png"
+              src="./viuda/img/Logo-negro.png"
               alt="logo"
               width="50"
               height="50"
@@ -48,7 +51,11 @@
               ¿Quieres un empleo de <em>Coder</em> de por vida?<br />
               Juega y consiguelo.
             </p>
-            <button id="close">Cerrar</button>
+            <div id="close" class="container-chucky">
+              <!-- BOTONCITO LIQUID FILL -->
+              <div class="box">Cerrar</div>
+              <!-- END OF BOTONCITO LIQUID FILL -->
+            </div>
           </div>
         </div>
       </div>
