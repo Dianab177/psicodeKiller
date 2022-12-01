@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Syne+Mono&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="js" href="./assets/js/app.js">
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="./assets/css/slenderman.css" />
+    <link rel="stylesheet" href="./assets/css/chucky.css" />
+    <link rel="stylesheet" href="./assets/css/viuda_negra.css" />
+    <link rel="js" href="./assets/js/app.js" />
     <title>Psy_code_killers</title>
-</head>
-
-<body>
-   <div>
-      <h1>Psy_code_killers</h1>
-        <h2>Wheel of doom</h2>
-       <script src="./assets/js/"></script>
-   </div>
-  
-
-
-<!-- BOTONCITO LIQUID FILL -->
-  <div class="box">
-    Play
-  </div>
-<!-- END OF BOTONCITO LIQUID FILL -->
-
-
-
-</body>
-
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="container-pc">
+        <img class="img-container-pc" src="/assets/media/pc-monitor.gif" />
+      </div>
+      <div class="container-text-button">
+        <h1 class="title-container-text-button">WHEEL<br />OF<br />DOOM</h1>
+        <!---------------------------------POP Up----------------------------------->
+        <div id="open" class="container-chucky">
+          <!-- BOTONCITO LIQUID FILL -->
+          <div class="box">Jugar</div>
+          <!-- END OF BOTONCITO LIQUID FILL -->
+        </div>
+        <div id="modal_container" class="modal-container">
+          <div class="modal">
+            <img
+              src="./viuda/img/Logo-negro.png"
+              alt="logo"
+              width="50"
+              height="50"
+            />
+            <h3>¡Has sido seleccionada!</h3>
+            <p>
+              ¿Quieres un empleo de <em>Coder</em> de por vida?<br /><a
+                class="juega"
+                href="./indexJtR.html"
+                >Haz click aquí</a
+              >
+            </p>
+            <div id="close" class="container-chucky">
+              <!-- BOTONCITO LIQUID FILL -->
+              <div class="box">Cerrar</div>
+              <!-- END OF BOTONCITO LIQUID FILL -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------POP Up----------------------------------->
+    <audio
+      id="intro"
+      src="./assets/media/audio-fondo.mp3"
+      autoplay
+      loop="loop"
+    ></audio>
+    <video
+      autoplay="autoplay"
+      loop="loop"
+      id="video_background"
+      preload="auto"
+      volume="0"
+    >
+      <source src="/assets/media/background-video.mp4" type="video/mp4" />
+    </video>
+    <script type="text/javascript" src="./assets/js/viuda_negra.js"></script>
+    <script src="./assets/js/"></script>
+    <footer class="pie-pagina">
+      <div class="autor">
+        <small
+          >Made with<strong class="heart"> ♥ </strong>by Diana, Marjane, Alba &
+          Sara</small
+        >
+      </div>
+    </footer>
+  </body>
 </html>
