@@ -8,7 +8,7 @@ const spinValues = [
     minDegree: 61,
     maxDegree: 90,
     value: `<ul>
-              <li>por eutanasia por parte de tus compañeras, que te veía sufrir demasiado programando</li>
+              <li>eutanasia por parte de tus compañeras, que te veía sufrir demasiado programando</li>
               <li><h3>Natalia</h3></li>
               <li><img src="/avatares/natalia.png"/></li>
             </ul> `,
@@ -26,7 +26,7 @@ const spinValues = [
     minDegree: 0,
     maxDegree: 30,
     value: `<ul>
-              <li>por latigazo de Manu</li>
+              <li>latigazo de Manu</li>
               <li><h3>Ana G</h3></li>
               <li><img src="/avatares/anag.png"/></li>
             </ul>`,
@@ -71,7 +71,7 @@ const spinValues = [
     minDegree: 211,
     maxDegree: 240,
     value: `<ul>
-              <li>por ataque de ira homicida ante problema sin solución</li>
+              <li>ataque de ira homicida ante problema sin solución</li>
               <li><h3>Irene</h3></li>
               <li><img src= "/avatares/irene.png"/></li>
             </ul>`,
@@ -107,7 +107,7 @@ const spinValues = [
     minDegree: 91,
     maxDegree: 120,
     value: `<ul>
-              <li>muerte por golpes contra el teclado</li>
+              <li>golpes contra el teclado</li>
               <li><h3>Tania</h3></li>
               <li><img src="/avatares/tania.png"/></li>
             </ul>`,
