@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -182,4 +182,4 @@ h2 {
   position: absolute;
   clip-path: polygon(100% 0, 50% 100%, 0 0);
   margin-top: -60px;
-} */
+}
