@@ -15,27 +15,22 @@
       rel="stylesheet"
     />
     <link type="text/css" rel="stylesheet" href="./assets/css/slenderman.css" />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="./assets/css/viuda_negra.css"
-    />
     <link rel="stylesheet" href="./assets/css/chucky.css" />
+    <link rel="stylesheet" href="./assets/css/viuda_negra.css" />
     <link rel="js" href="./assets/js/app.js" />
     <title>Psy_code_killers</title>
   </head>
   <body>
     <div class="container-1">
       <div class="container-pc">
-        <img class="img-container-pc" src="/assets/img/monitor.png" />
+        <img class="img-container-pc" src="/assets/media/pc-monitor.gif" />
       </div>
       <div class="container-text-button">
         <h1 class="title-container-text-button">WHEEL<br />OF<br />DOOM</h1>
-
         <!---------------------------------POP Up----------------------------------->
         <div id="open" class="container-chucky">
           <!-- BOTONCITO LIQUID FILL -->
-          <div class="box">Play</div>
+          <div class="box">Jugar</div>
           <!-- END OF BOTONCITO LIQUID FILL -->
         </div>
         <div id="modal_container" class="modal-container">
@@ -48,8 +43,11 @@
             />
             <h3>¡Has sido seleccionada!</h3>
             <p>
-              ¿Quieres un empleo de <em>Coder</em> de por vida?<br />
-              Juega y consiguelo.
+              ¿Quieres un empleo de <em>Coder</em> de por vida?<br /><a
+                class="juega"
+                href="./indexJtR.html"
+                >Haz click aquí</a
+              >
             </p>
             <div id="close" class="container-chucky">
               <!-- BOTONCITO LIQUID FILL -->
@@ -60,9 +58,13 @@
         </div>
       </div>
     </div>
-
     <!----------------------------------POP Up----------------------------------->
-
+    <audio
+      id="intro"
+      src="./assets/media/audio-fondo.mp3"
+      autoplay
+      loop="loop"
+    ></audio>
     <video
       autoplay="autoplay"
       loop="loop"
@@ -72,15 +74,12 @@
     >
       <source src="/assets/media/background-video.mp4" type="video/mp4" />
     </video>
-
     <script type="text/javascript" src="./assets/js/viuda_negra.js"></script>
     <script src="./assets/js/"></script>
     <footer class="pie-pagina">
-      <div class="autor"><small>&copy; Factoria F5.</small></div>
-      <ul class="terms">
-        <li>Privacy -</li>
-        <li>Terms and Conditions</li>
-      </ul>
+      <div class="autor">
+        <small>Made with ♥ by Diana, Marjane, Alba & Sara</small>
+      </div>
     </footer>
   </body>
 </html>

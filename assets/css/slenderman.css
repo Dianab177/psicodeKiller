@@ -37,12 +37,12 @@ video {
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-top: 190px;
+  margin-top: 95px;
 }
 
 .img-container-pc {
   display: flex;
-  width: 250px;
+  width: 300px;
 }
 
 .container-text-button {
@@ -62,41 +62,75 @@ video {
   font-family: "Nosifer";
 }
 
-.button-container-text-button {
+.pie-pagina {
+  clear: both;
+  box-sizing: border-box;
+  width: 100%;
   background-color: black;
-  border: none;
-  border-radius: 20px;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
+  min-height: 50px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 25px;
+  color: #fff;
+  margin-top: 16px;
+  padding-top: 3px;
 }
 
-.button-container-text-button:hover {
-  color: red;
+.autor {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
 /* Iphone 12 - horizontal  */
-
-/* Ipad mini - horizontal */
-@media (min-width: 1024px) and (orientation: landscape) {
+@media (max-width: 844px) and (max-height: 390px) and (orientation: landscape) {
   .container-1 {
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: -30px;
   }
 
   .container-pc {
-    height: 350px;
-    margin-top: 200px;
-    margin-right: 40px;
+    width: 400px;
+    margin-right: 5px;
   }
 
   .container-text-button {
-    height: 350px;
-    margin-left: 40px;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 70px;
+  }
+
+  .img-container-pc {
+    width: 250px;
+  }
+
+  .title-container-text-button {
+    font-size: 25pt;
+  }
+
+  .button-container-text-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .pie-pagina {
+    margin-top: 25px;
+  }
+}
+
+/* iPad Air - vertical */
+@media (min-width: 820px) and (min-height: 1180px) {
+  .container-1 {
+    flex-direction: column;
+    margin-top: 12px;
+  }
+
+  .container-pc {
+    width: 400px;
+  }
+
+  .container-text-button {
+    width: 400px;
+    margin-top: 70px;
   }
 
   .img-container-pc {
@@ -105,40 +139,16 @@ video {
 
   .title-container-text-button {
     font-size: 45pt;
-    margin-top: 130px;
   }
 
   .button-container-text-button {
-    padding: 15px 35px;
-    font-size: 22px;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .pie-pagina {
     margin-top: 25px;
-  }
-}
-
-/* Ipad Air - vertical */
-@media (min-width: 820px) {
-  .container-pc {
-    height: 400px;
-    margin-top: 140px;
-  }
-
-  .container-text-button {
-    height: 400px;
-  }
-
-  .img-container-pc {
-    width: 500px;
-  }
-
-  .title-container-text-button {
-    font-size: 50pt;
-    margin-top: 100px;
-  }
-
-  .button-container-text-button {
-    padding: 20px 40px;
-    font-size: 25px;
-    margin-top: 30px;
   }
 }
 
@@ -146,30 +156,36 @@ video {
 @media (min-width: 1180px) and (orientation: landscape) {
   .container-1 {
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 60px;
   }
+
   .container-pc {
-    height: 400px;
-    margin-right: 40px;
+    width: 400px;
+    margin-right: 50px;
   }
 
   .container-text-button {
-    height: 400px;
-    margin-left: 40px;
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 50px;
   }
 
   .img-container-pc {
-    width: 500px;
+    width: 400px;
   }
 
   .title-container-text-button {
-    font-size: 50pt;
+    font-size: 45pt;
   }
 
   .button-container-text-button {
-    padding: 20px 40px;
-    font-size: 25px;
-    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .pie-pagina {
+    margin-top: 136px;
   }
 }
 
@@ -177,7 +193,7 @@ video {
 @media (min-width: 1200px) {
   .container-1 {
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .container-pc {
@@ -188,6 +204,7 @@ video {
   .container-text-button {
     height: 400px;
     margin-left: 70px;
+    margin-top: 50px;
   }
 
   .img-container-pc {
@@ -202,5 +219,9 @@ video {
     padding: 15px 30px;
     font-size: 20px;
     margin-top: 30px;
+  }
+
+  .pie-pagina {
+    margin-top: 143px;
   }
 }
