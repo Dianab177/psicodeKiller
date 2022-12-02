@@ -1,6 +1,7 @@
 # Psy_code_killers
 ***
 ## Comenzando :rocket:
+***
 Este es un proyecto ***en desarrollo*** de una aplicación de un juego de azar, en el cual varias coders se disputan un empleo. Solo puede quedar una. 
 Visita la demo del proyecto [aquí](https://warm-starburst-be6852.netlify.app/).
 
